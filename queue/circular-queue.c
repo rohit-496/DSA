@@ -74,18 +74,7 @@ int main() {
     dequeue(&cq);
     printQueue(&cq);
 
-    enqueue(&cq,500);
-    printQueue(&cq);
-
     enqueue(&cq,600);
     dequeue(&cq);
-
-    enqueue(&cq,600);
-    printQueue(&cq);
-
-    dequeue(&cq);
-    dequeue(&cq);
-    printQueue(&cq);
-
     return 0;
 }
